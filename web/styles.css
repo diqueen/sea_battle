@@ -1,0 +1,437 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.console-section {
+    margin-bottom: 20px;
+    background-color: #2d2d2d;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1000;
+}
+
+.console-section {
+    margin-bottom: 20px;
+}
+
+#console-output {
+    background-color: #2d2d2d;
+    color: #fff;
+    padding: 10px;
+    height: 200px;
+    overflow-y: auto;
+    font-family: monospace;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.console-input-wrapper {
+    display: flex;
+    align-items: center;
+    background-color: #2d2d2d;
+    padding: 10px;
+    border-top: 1px solid #3d3d3d;
+    border-radius: 0 0 5px 5px;
+    margin-top: 1px;
+    position: relative;
+    z-index: 1000;
+}
+
+.prompt {
+    color: #0f0;
+    margin-right: 5px;
+    font-family: monospace;
+}
+
+#console-input {
+    flex: 1;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-family: monospace;
+    padding: 5px;
+    outline: none;
+    font-size: 14px;
+    position: relative;
+    z-index: 1000;
+}
+
+#console-input:focus {
+    outline: none;
+}
+
+.game-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.boards-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.board-wrapper {
+    text-align: center;
+}
+
+.board-wrapper h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.game-board {
+    margin: 10px;
+    display: inline-block;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 30px repeat(10, 40px);
+    grid-template-rows: 30px repeat(10, 40px);
+    gap: 1px;
+    background-color: #ddd;
+    padding: 1px;
+    border: 1px solid #ccc;
+}
+
+.coordinate-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    font-size: 14px;
+    color: #666;
+    border: 1px solid #ddd;
+}
+
+.corner {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    background-color: white;
+    transition: background-color 0.3s ease;
+}
+
+.cell.ship {
+    background-color: #666;
+}
+
+.cell.hit {
+    background-color: rgba(255, 0, 0, 0.15);
+}
+
+.cell.hit::before {
+    content: '×';
+    color: red;
+    position: absolute;
+    animation: hitMark 0.5s ease-out;
+}
+
+.cell.miss {
+    background-color: rgba(0, 0, 255, 0.15);
+}
+
+.cell.miss::before {
+    content: '○';
+    color: blue;
+    position: absolute;
+    animation: missMark 0.5s ease-out;
+}
+
+.cell.destroyed {
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+.cell.destroyed::before {
+    content: '×';
+    color: darkred;
+    position: absolute;
+    animation: destroyedMark 0.5s ease-out;
+}
+
+.cell.surrounding {
+    background-color: rgba(200, 200, 200, 0.3);
+}
+
+.enemy-board .cell:hover {
+    background-color: #f0f0f0;
+    cursor: crosshair;
+}
+
+#game-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 40px;
+}
+
+.console-section {
+    max-width: 800px;
+    margin: 0 auto 20px;
+    background-color: #333;
+    border: 1px solid #666;
+    border-radius: 4px;
+    padding: 10px;
+    color: white;
+}
+
+#console-output {
+    height: 200px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-family: monospace;
+    white-space: pre-wrap;
+    color: white;
+}
+
+.console-input-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.prompt {
+    color: white;
+    margin-right: 5px;
+    font-family: monospace;
+}
+
+#console-input {
+    flex: 1;
+    border: none;
+    background: none;
+    outline: none;
+    font-family: monospace;
+    font-size: 14px;
+    color: white;
+}
+
+#game-over {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    animation: fadeIn 0.3s ease-in;
+}
+
+.game-over.show {
+    display: block;
+}
+
+.game-result {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+}
+
+.game-result.win {
+    display: block;
+    color: #2ecc71;
+    background-color: rgba(46, 204, 113, 0.1);
+}
+
+.game-result.lose {
+    display: block;
+    color: #e74c3c;
+    background-color: rgba(231, 76, 60, 0.1);
+}
+
+.commands-help {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.commands-help h3 {
+    margin-top: 0;
+}
+
+.commands-help pre {
+    margin: 0;
+    white-space: pre-wrap;
+    color: #666;
+    font-family: monospace;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.terminal {
+    background-color: #1e1e1e;
+    color: #fff;
+    font-family: 'Consolas', monospace;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+#terminal-output {
+    flex-grow: 1;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    font-size: 14px;
+    line-height: 1.4;
+    padding: 5px;
+}
+
+.input-line {
+    display: flex;
+    align-items: center;
+    background-color: #2d2d2d;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+.prompt {
+    color: #0f0;
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+#command-input {
+    flex-grow: 1;
+    background: none;
+    border: none;
+    color: #fff;
+    font-family: 'Consolas', monospace;
+    font-size: 14px;
+    outline: none;
+    width: 100%;
+}
+
+#command-input::placeholder {
+    color: #666;
+}
+
+.game-container {
+    margin-top: 20px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translate(-50%, -60%);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@keyframes hitMark {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 0.7;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes missMark {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 0.7;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes destroyedMark {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 0.7;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes killMark {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1.3);
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+@keyframes surroundingMark {
+    0% {
+        transform: translate(-50%, -50%) scale(0);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0.5;
+    }
+}

@@ -1,0 +1,38 @@
+[
+{
+  "directory": "C:/Users/slaim/github-classroom/is-itmo-c-24/sea_battle/build",
+  "command": "C:/Users/slaim/gcc/bin/g++.exe  @CMakeFiles/sea_battle.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/sea_battle.dir/main.cpp.obj -c C:/Users/slaim/github-classroom/is-itmo-c-24/sea_battle/main.cpp",
+  "file": "C:/Users/slaim/github-classroom/is-itmo-c-24/sea_battle/main.cpp",
+  "output": "CMakeFiles/sea_battle.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/slaim/github-classroom/is-itmo-c-24/sea_battle/build",
+  "command": "C:/Users/slaim/gcc/bin/g++.exe  @CMakeFiles/sea_battle.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/sea_battle.dir/src/Game.cpp.obj -c C:/Users/slaim/github-classroom/is-itmo-c-24/sea_battle/src/Game.cpp",
+  "file": "C:/Users/slaim/github-classroom/is-itmo-c-24/sea_battle/src/Game.cpp",
+  "output": "CMakeFiles/sea_battle.dir/src/Game.cpp.obj"
+},
+{
+  "directory": "C:/Users/slaim/github-classroom/is-itmo-c-24/sea_battle/build",
+  "command": "C:/Users/slaim/gcc/bin/g++.exe  @CMakeFiles/sea_battle.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/sea_battle.dir/src/CommandProcessor.cpp.obj -c C:/Users/slaim/github-classroom/is-itmo-c-24/sea_battle/src/CommandProcessor.cpp",
+  "file": "C:/Users/slaim/github-classroom/is-itmo-c-24/sea_battle/src/CommandProcessor.cpp",
+  "output": "CMakeFiles/sea_battle.dir/src/CommandProcessor.cpp.obj"
+},
+{
+  "directory": "C:/Users/slaim/github-classroom/is-itmo-c-24/sea_battle/build",
+  "command": "C:/Users/slaim/gcc/bin/g++.exe  @CMakeFiles/web_server.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/web_server.dir/src/WebServer.cpp.obj -c C:/Users/slaim/github-classroom/is-itmo-c-24/sea_battle/src/WebServer.cpp",
+  "file": "C:/Users/slaim/github-classroom/is-itmo-c-24/sea_battle/src/WebServer.cpp",
+  "output": "CMakeFiles/web_server.dir/src/WebServer.cpp.obj"
+},
+{
+  "directory": "C:/Users/slaim/github-classroom/is-itmo-c-24/sea_battle/build",
+  "command": "C:/Users/slaim/gcc/bin/g++.exe  @CMakeFiles/web_server.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/web_server.dir/src/Game.cpp.obj -c C:/Users/slaim/github-classroom/is-itmo-c-24/sea_battle/src/Game.cpp",
+  "file": "C:/Users/slaim/github-classroom/is-itmo-c-24/sea_battle/src/Game.cpp",
+  "output": "CMakeFiles/web_server.dir/src/Game.cpp.obj"
+},
+{
+  "directory": "C:/Users/slaim/github-classroom/is-itmo-c-24/sea_battle/build",
+  "command": "C:/Users/slaim/gcc/bin/g++.exe  @CMakeFiles/web_server.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/web_server.dir/src/CommandProcessor.cpp.obj -c C:/Users/slaim/github-classroom/is-itmo-c-24/sea_battle/src/CommandProcessor.cpp",
+  "file": "C:/Users/slaim/github-classroom/is-itmo-c-24/sea_battle/src/CommandProcessor.cpp",
+  "output": "CMakeFiles/web_server.dir/src/CommandProcessor.cpp.obj"
+}
+]

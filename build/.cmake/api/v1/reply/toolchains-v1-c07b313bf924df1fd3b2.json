@@ -1,0 +1,136 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0/include",
+						"C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0/include-fixed",
+						"C:/Users/slaim/gcc/i686-pc-mingw32/include"
+					],
+					"linkDirectories" : 
+					[
+						"C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0",
+						"C:/Users/slaim/gcc/lib/gcc",
+						"C:/Users/slaim/gcc/i686-pc-mingw32/lib",
+						"C:/Users/slaim/gcc/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32"
+					]
+				},
+				"path" : "C:/Users/slaim/gcc/bin/gcc.exe",
+				"version" : "14.1.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"C:/Users/slaim/gcc/include/c++/14.1.0",
+						"C:/Users/slaim/gcc/include/c++/14.1.0/i686-pc-mingw32",
+						"C:/Users/slaim/gcc/include/c++/14.1.0/backward",
+						"C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0/include",
+						"C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0/include-fixed",
+						"C:/Users/slaim/gcc/i686-pc-mingw32/include"
+					],
+					"linkDirectories" : 
+					[
+						"C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0",
+						"C:/Users/slaim/gcc/lib/gcc",
+						"C:/Users/slaim/gcc/i686-pc-mingw32/lib",
+						"C:/Users/slaim/gcc/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"stdc++",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32"
+					]
+				},
+				"path" : "C:/Users/slaim/gcc/bin/g++.exe",
+				"version" : "14.1.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm",
+				"ccm",
+				"cxxm",
+				"c++m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"implicit" : {},
+				"path" : "C:/Users/slaim/gcc/bin/windres.exe"
+			},
+			"language" : "RC",
+			"sourceFileExtensions" : 
+			[
+				"rc",
+				"RC"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battleship Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="terminal">
+            <div id="terminal-output"></div>
+            <div class="input-line">
+                <span class="prompt">&gt;</span>
+                <input type="text" id="command-input" placeholder="Введите команду...">
+            </div>
+        </div>
+        
+        <div class="game-container">
+            <div class="game-result" id="gameResult"></div>
+            <div class="boards-container">
+                <div class="board-wrapper">
+                    <h2>Ваше поле</h2>
+                    <div class="game-board" id="player-board"></div>
+                </div>
+                <div class="board-wrapper">
+                    <h2>Поле противника</h2>
+                    <div class="game-board" id="enemy-board"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="game-over" class="game-over"></div>
+
+    <div class="commands-help">
+        <h3>Доступные команды:</h3>
+        <pre>
+1. Управление игрой:
+create master/slave - создать игру в режиме master/slave
+start - начать игру
+stop - остановить игру
+save filename - сохранить игру
+load filename - загрузить игру
+
+2. Настройка поля:
+set size width height - установить размер поля
+set ships size count - установить количество кораблей
+set strategy type - установить стратегию (ordered/random/custom)
+
+3. Размещение кораблей:
+place x y size direction - разместить корабль
+  x y - координаты (0-9)
+  size - размер корабля (1-4)
+  direction - направление (h/v)
+Примеры:
+  place 0 0 4 h - 4-палубный корабль горизонтально в точке 0,0
+  place 2 3 2 v - 2-палубный корабль вертикально в точке 2,3
+
+4. Игровой процесс:
+shot x y - сделать выстрел по координатам
+exit - выйти из игры
+        </pre>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

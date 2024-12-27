@@ -1,0 +1,1202 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Users/slaim/gcc/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/slaim/github-classroom/is-itmo-c-24/labwork_5_boost/build/CMakeFiles/3.30.3/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Users/slaim/gcc/bin/c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/slaim/github-classroom/is-itmo-c-24/labwork_5_boost/build/CMakeFiles/3.30.3/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/slaim/github-classroom/is-itmo-c-24/labwork_5_boost/build/CMakeFiles/CMakeScratch/TryCompile-30mzj8"
+      binary: "C:/Users/slaim/github-classroom/is-itmo-c-24/labwork_5_boost/build/CMakeFiles/CMakeScratch/TryCompile-30mzj8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/slaim/github-classroom/is-itmo-c-24/labwork_5_boost/build/CMakeFiles/CMakeScratch/TryCompile-30mzj8'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_c04ed/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_c04ed.dir\\build.make CMakeFiles/cmTC_c04ed.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/slaim/github-classroom/is-itmo-c-24/labwork_5_boost/build/CMakeFiles/CMakeScratch/TryCompile-30mzj8'
+        Building C object CMakeFiles/cmTC_c04ed.dir/CMakeCCompilerABI.c.obj
+        C:\\Users\\slaim\\gcc\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_c04ed.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+        Built by Equation Solution <http://www.Equation.com>.
+        Using built-in specs.
+        COLLECT_GCC=C:\\Users\\slaim\\gcc\\bin\\gcc.exe
+        Target: i686-pc-mingw32
+        Configured with: ../gcc-14.1.0/configure --host=i686-pc-mingw32 --build=x86_64-unknown-linux-gnu --target=i686-pc-mingw32 --prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gcc/14.1.0 --with-gcc --with-gnu-as --with-gnu-ld --with-cloog=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/cloog --with-gmp=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gmp --with-mpfr=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpfr --with-mpc=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpc --with-libiconv-prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/libiconv --with-diagnostics-color=auto --enable-cloog-backend=isl --with-sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0 --disable-nls --disable-tls --disable-libgcc2 --disable-win32-registry --enable-build-with-cxx --enable-libquadmath-support --enable-libquadmath --enable-languages=c,c++,fortran --enable-libgomp --enable-threads=win32 --enable-lto --disable-checking --enable-static --enable-shared=lto-plugin --enable-plugins --enable-ld=yes
+        Thread model: win32
+        Supported LTO compression algorithms: zlib
+        gcc version 14.1.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c04ed.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles\\cmTC_c04ed.dir\\'
+         C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/cc1.exe -quiet -v -iprefix C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/ C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_c04ed.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=pentiumpro -version -o C:\\Users\\slaim\\AppData\\Local\\Temp\\ccEWelXi.s
+        GNU C17 (GCC) version 14.1.0 (i686-pc-mingw32)
+        	compiled by GNU C version 14.1.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/Users/slaim/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/14.1.0/include"
+        ignoring nonexistent directory "/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gcc/14.1.0/lib/gcc/i686-pc-mingw32/14.1.0/../../../../include"
+        ignoring duplicate directory "C:/Users/slaim/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/14.1.0/include-fixed"
+        ignoring duplicate directory "C:/Users/slaim/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/include"
+        ignoring nonexistent directory "/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/include
+         C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/include-fixed
+         C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/include
+        End of search list.
+        Compiler executable checksum: d2e558b9b55fc0ff89dcb856405f4c1c
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c04ed.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles\\cmTC_c04ed.dir\\'
+         C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_c04ed.dir\\CMakeCCompilerABI.c.obj C:\\Users\\slaim\\AppData\\Local\\Temp\\ccEWelXi.s
+        GNU assembler version 2.41 (i686-pc-mingw32) using BFD version (GNU Binutils) 2.41
+        COMPILER_PATH=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/;C:/Users/slaim/gcc/bin/../libexec/gcc/;C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/bin/
+        LIBRARY_PATH=C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/;C:/Users/slaim/gcc/bin/../lib/gcc/;C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/;C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c04ed.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles\\cmTC_c04ed.dir\\CMakeCCompilerABI.c.'
+        Linking C executable cmTC_c04ed.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_c04ed.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_c04ed.dir/objects.a
+        C:\\Users\\slaim\\gcc\\bin\\ar.exe qc CMakeFiles\\cmTC_c04ed.dir/objects.a @CMakeFiles\\cmTC_c04ed.dir\\objects1.rsp
+        C:\\Users\\slaim\\gcc\\bin\\gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_c04ed.dir/objects.a -Wl,--no-whole-archive -o cmTC_c04ed.exe -Wl,--out-implib,libcmTC_c04ed.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        Built by Equation Solution <http://www.Equation.com>.
+        Using built-in specs.
+        COLLECT_GCC=C:\\Users\\slaim\\gcc\\bin\\gcc.exe
+        COLLECT_LTO_WRAPPER=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/lto-wrapper.exe
+        Target: i686-pc-mingw32
+        Configured with: ../gcc-14.1.0/configure --host=i686-pc-mingw32 --build=x86_64-unknown-linux-gnu --target=i686-pc-mingw32 --prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gcc/14.1.0 --with-gcc --with-gnu-as --with-gnu-ld --with-cloog=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/cloog --with-gmp=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gmp --with-mpfr=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpfr --with-mpc=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpc --with-libiconv-prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/libiconv --with-diagnostics-color=auto --enable-cloog-backend=isl --with-sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0 --disable-nls --disable-tls --disable-libgcc2 --disable-win32-registry --enable-build-with-cxx --enable-libquadmath-support --enable-libquadmath --enable-languages=c,c++,fortran --enable-libgomp --enable-threads=win32 --enable-lto --disable-checking --enable-static --enable-shared=lto-plugin --enable-plugins --enable-ld=yes
+        Thread model: win32
+        Supported LTO compression algorithms: zlib
+        gcc version 14.1.0 (GCC) 
+        COMPILER_PATH=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/;C:/Users/slaim/gcc/bin/../libexec/gcc/;C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/bin/
+        LIBRARY_PATH=C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/;C:/Users/slaim/gcc/bin/../lib/gcc/;C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/;C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c04ed.exe' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'cmTC_c04ed.'
+         C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/collect2.exe -plugin C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/liblto_plugin.dll -plugin-opt=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\slaim\\AppData\\Local\\Temp\\cciNQzQw.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0 -Bdynamic -o cmTC_c04ed.exe C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/crt2.o C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtbegin.o -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0 -LC:/Users/slaim/gcc/bin/../lib/gcc -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_c04ed.dir/objects.a --no-whole-archive --out-implib libcmTC_c04ed.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtend.o
+        collect2 version 14.1.0
+        C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/bin/ld.exe -plugin C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/liblto_plugin.dll -plugin-opt=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\slaim\\AppData\\Local\\Temp\\cciNQzQw.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0 -Bdynamic -o cmTC_c04ed.exe C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/crt2.o C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtbegin.o -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0 -LC:/Users/slaim/gcc/bin/../lib/gcc -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_c04ed.dir/objects.a --no-whole-archive --out-implib libcmTC_c04ed.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtend.o
+        GNU ld (GNU Binutils) 2.41
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c04ed.exe' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'cmTC_c04ed.'
+        mingw32-make[1]: Leaving directory 'C:/Users/slaim/github-classroom/is-itmo-c-24/labwork_5_boost/build/CMakeFiles/CMakeScratch/TryCompile-30mzj8'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/include]
+          add: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/include-fixed]
+          add: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/include]
+        end of search list found
+        collapse include dir [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/include] ==> [C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0/include]
+        collapse include dir [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/include-fixed] ==> [C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0/include-fixed]
+        collapse include dir [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/include] ==> [C:/Users/slaim/gcc/i686-pc-mingw32/include]
+        implicit include dirs: [C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0/include;C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0/include-fixed;C:/Users/slaim/gcc/i686-pc-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Users/slaim/github-classroom/is-itmo-c-24/labwork_5_boost/build/CMakeFiles/CMakeScratch/TryCompile-30mzj8']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_c04ed/fast]
+        ignore line: [C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_c04ed.dir\\build.make CMakeFiles/cmTC_c04ed.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/slaim/github-classroom/is-itmo-c-24/labwork_5_boost/build/CMakeFiles/CMakeScratch/TryCompile-30mzj8']
+        ignore line: [Building C object CMakeFiles/cmTC_c04ed.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\Users\\slaim\\gcc\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_c04ed.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"]
+        ignore line: [Built by Equation Solution <http://www.Equation.com>.]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Users\\slaim\\gcc\\bin\\gcc.exe]
+        ignore line: [Target: i686-pc-mingw32]
+        ignore line: [Configured with: ../gcc-14.1.0/configure --host=i686-pc-mingw32 --build=x86_64-unknown-linux-gnu --target=i686-pc-mingw32 --prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gcc/14.1.0 --with-gcc --with-gnu-as --with-gnu-ld --with-cloog=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/cloog --with-gmp=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gmp --with-mpfr=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpfr --with-mpc=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpc --with-libiconv-prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/libiconv --with-diagnostics-color=auto --enable-cloog-backend=isl --with-sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0 --disable-nls --disable-tls --disable-libgcc2 --disable-win32-registry --enable-build-with-cxx --enable-libquadmath-support --enable-libquadmath --enable-languages=c,c++,fortran --enable-libgomp --enable-threads=win32 --enable-lto --disable-checking --enable-static --enable-shared=lto-plugin --enable-plugins --enable-ld=yes]
+        ignore line: [Thread model: win32]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 14.1.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c04ed.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles\\cmTC_c04ed.dir\\']
+        ignore line: [ C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/cc1.exe -quiet -v -iprefix C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/ C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_c04ed.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=pentiumpro -version -o C:\\Users\\slaim\\AppData\\Local\\Temp\\ccEWelXi.s]
+        ignore line: [GNU C17 (GCC) version 14.1.0 (i686-pc-mingw32)]
+        ignore line: [	compiled by GNU C version 14.1.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/Users/slaim/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/14.1.0/include"]
+        ignore line: [ignoring nonexistent directory "/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gcc/14.1.0/lib/gcc/i686-pc-mingw32/14.1.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "C:/Users/slaim/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/14.1.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/Users/slaim/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/include]
+        ignore line: [ C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/include-fixed]
+        ignore line: [ C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: d2e558b9b55fc0ff89dcb856405f4c1c]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c04ed.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles\\cmTC_c04ed.dir\\']
+        ignore line: [ C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_c04ed.dir\\CMakeCCompilerABI.c.obj C:\\Users\\slaim\\AppData\\Local\\Temp\\ccEWelXi.s]
+        ignore line: [GNU assembler version 2.41 (i686-pc-mingw32) using BFD version (GNU Binutils) 2.41]
+        ignore line: [COMPILER_PATH=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/]
+        ignore line: [C:/Users/slaim/gcc/bin/../libexec/gcc/]
+        ignore line: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/]
+        ignore line: [C:/Users/slaim/gcc/bin/../lib/gcc/]
+        ignore line: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/]
+        ignore line: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_c04ed.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles\\cmTC_c04ed.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_c04ed.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_c04ed.dir\\link.txt --verbose=1]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_c04ed.dir/objects.a]
+        ignore line: [C:\\Users\\slaim\\gcc\\bin\\ar.exe qc CMakeFiles\\cmTC_c04ed.dir/objects.a @CMakeFiles\\cmTC_c04ed.dir\\objects1.rsp]
+        ignore line: [C:\\Users\\slaim\\gcc\\bin\\gcc.exe  -v -Wl -v -Wl --whole-archive CMakeFiles\\cmTC_c04ed.dir/objects.a -Wl --no-whole-archive -o cmTC_c04ed.exe -Wl --out-implib libcmTC_c04ed.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [Built by Equation Solution <http://www.Equation.com>.]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Users\\slaim\\gcc\\bin\\gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/lto-wrapper.exe]
+        ignore line: [Target: i686-pc-mingw32]
+        ignore line: [Configured with: ../gcc-14.1.0/configure --host=i686-pc-mingw32 --build=x86_64-unknown-linux-gnu --target=i686-pc-mingw32 --prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gcc/14.1.0 --with-gcc --with-gnu-as --with-gnu-ld --with-cloog=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/cloog --with-gmp=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gmp --with-mpfr=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpfr --with-mpc=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpc --with-libiconv-prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/libiconv --with-diagnostics-color=auto --enable-cloog-backend=isl --with-sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0 --disable-nls --disable-tls --disable-libgcc2 --disable-win32-registry --enable-build-with-cxx --enable-libquadmath-support --enable-libquadmath --enable-languages=c,c++,fortran --enable-libgomp --enable-threads=win32 --enable-lto --disable-checking --enable-static --enable-shared=lto-plugin --enable-plugins --enable-ld=yes]
+        ignore line: [Thread model: win32]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 14.1.0 (GCC) ]
+        ignore line: [COMPILER_PATH=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/]
+        ignore line: [C:/Users/slaim/gcc/bin/../libexec/gcc/]
+        ignore line: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/]
+        ignore line: [C:/Users/slaim/gcc/bin/../lib/gcc/]
+        ignore line: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/]
+        ignore line: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c04ed.exe' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'cmTC_c04ed.']
+        link line: [ C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/collect2.exe -plugin C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/liblto_plugin.dll -plugin-opt=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\slaim\\AppData\\Local\\Temp\\cciNQzQw.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0 -Bdynamic -o cmTC_c04ed.exe C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/crt2.o C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtbegin.o -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0 -LC:/Users/slaim/gcc/bin/../lib/gcc -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_c04ed.dir/objects.a --no-whole-archive --out-implib libcmTC_c04ed.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtend.o]
+          arg [C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\slaim\\AppData\\Local\\Temp\\cciNQzQw.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [--sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_c04ed.exe] ==> ignore
+          arg [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/crt2.o] ==> obj [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/crt2.o]
+          arg [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtbegin.o] ==> obj [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtbegin.o]
+          arg [-LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0] ==> dir [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0]
+          arg [-LC:/Users/slaim/gcc/bin/../lib/gcc] ==> dir [C:/Users/slaim/gcc/bin/../lib/gcc]
+          arg [-LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib] ==> dir [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib]
+          arg [-LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../..] ==> dir [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../..]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_c04ed.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_c04ed.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtend.o] ==> obj [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtend.o]
+        ignore line: [collect2 version 14.1.0]
+        ignore line: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/bin/ld.exe -plugin C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/liblto_plugin.dll -plugin-opt=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\slaim\\AppData\\Local\\Temp\\cciNQzQw.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0 -Bdynamic -o cmTC_c04ed.exe C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/crt2.o C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtbegin.o -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0 -LC:/Users/slaim/gcc/bin/../lib/gcc -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_c04ed.dir/objects.a --no-whole-archive --out-implib libcmTC_c04ed.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtend.o]
+        linker tool for 'C': C:/Users/slaim/gcc/i686-pc-mingw32/bin/ld.exe
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/crt2.o] ==> [C:/Users/slaim/gcc/i686-pc-mingw32/lib/crt2.o]
+        collapse obj [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtbegin.o] ==> [C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0/crtbegin.o]
+        collapse obj [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtend.o] ==> [C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0/crtend.o]
+        collapse library dir [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0] ==> [C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0]
+        collapse library dir [C:/Users/slaim/gcc/bin/../lib/gcc] ==> [C:/Users/slaim/gcc/lib/gcc]
+        collapse library dir [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib] ==> [C:/Users/slaim/gcc/i686-pc-mingw32/lib]
+        collapse library dir [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../..] ==> [C:/Users/slaim/gcc/lib]
+        implicit libs: [mingw32;gcc;moldname;mingwex;kernel32;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex;kernel32]
+        implicit objs: [C:/Users/slaim/gcc/i686-pc-mingw32/lib/crt2.o;C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0/crtbegin.o;C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0/crtend.o]
+        implicit dirs: [C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0;C:/Users/slaim/gcc/lib/gcc;C:/Users/slaim/gcc/i686-pc-mingw32/lib;C:/Users/slaim/gcc/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Users/slaim/gcc/i686-pc-mingw32/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.41
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/slaim/github-classroom/is-itmo-c-24/labwork_5_boost/build/CMakeFiles/CMakeScratch/TryCompile-qrz0f6"
+      binary: "C:/Users/slaim/github-classroom/is-itmo-c-24/labwork_5_boost/build/CMakeFiles/CMakeScratch/TryCompile-qrz0f6"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/slaim/github-classroom/is-itmo-c-24/labwork_5_boost/build/CMakeFiles/CMakeScratch/TryCompile-qrz0f6'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_0cbcf/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_0cbcf.dir\\build.make CMakeFiles/cmTC_0cbcf.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/slaim/github-classroom/is-itmo-c-24/labwork_5_boost/build/CMakeFiles/CMakeScratch/TryCompile-qrz0f6'
+        Building CXX object CMakeFiles/cmTC_0cbcf.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\Users\\slaim\\gcc\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_0cbcf.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+        Built by Equation Solution <http://www.Equation.com>.
+        Using built-in specs.
+        COLLECT_GCC=C:\\Users\\slaim\\gcc\\bin\\c++.exe
+        Target: i686-pc-mingw32
+        Configured with: ../gcc-14.1.0/configure --host=i686-pc-mingw32 --build=x86_64-unknown-linux-gnu --target=i686-pc-mingw32 --prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gcc/14.1.0 --with-gcc --with-gnu-as --with-gnu-ld --with-cloog=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/cloog --with-gmp=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gmp --with-mpfr=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpfr --with-mpc=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpc --with-libiconv-prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/libiconv --with-diagnostics-color=auto --enable-cloog-backend=isl --with-sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0 --disable-nls --disable-tls --disable-libgcc2 --disable-win32-registry --enable-build-with-cxx --enable-libquadmath-support --enable-libquadmath --enable-languages=c,c++,fortran --enable-libgomp --enable-threads=win32 --enable-lto --disable-checking --enable-static --enable-shared=lto-plugin --enable-plugins --enable-ld=yes
+        Thread model: win32
+        Supported LTO compression algorithms: zlib
+        gcc version 14.1.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_0cbcf.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles\\cmTC_0cbcf.dir\\'
+         C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/ C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_0cbcf.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=pentiumpro -version -o C:\\Users\\slaim\\AppData\\Local\\Temp\\ccYYse2Z.s
+        GNU C++17 (GCC) version 14.1.0 (i686-pc-mingw32)
+        	compiled by GNU C version 14.1.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/Users/slaim/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/14.1.0/../../../../include/c++/14.1.0"
+        ignoring duplicate directory "C:/Users/slaim/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/14.1.0/../../../../include/c++/14.1.0/i686-pc-mingw32"
+        ignoring duplicate directory "C:/Users/slaim/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/14.1.0/../../../../include/c++/14.1.0/backward"
+        ignoring duplicate directory "C:/Users/slaim/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/14.1.0/include"
+        ignoring nonexistent directory "/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gcc/14.1.0/lib/gcc/i686-pc-mingw32/14.1.0/../../../../include"
+        ignoring duplicate directory "C:/Users/slaim/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/14.1.0/include-fixed"
+        ignoring duplicate directory "C:/Users/slaim/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/include"
+        ignoring nonexistent directory "/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../include/c++/14.1.0
+         C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../include/c++/14.1.0/i686-pc-mingw32
+         C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../include/c++/14.1.0/backward
+         C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/include
+         C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/include-fixed
+         C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/include
+        End of search list.
+        Compiler executable checksum: e86cb395cc573b1819fb8df51e021635
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_0cbcf.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles\\cmTC_0cbcf.dir\\'
+         C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_0cbcf.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\slaim\\AppData\\Local\\Temp\\ccYYse2Z.s
+        GNU assembler version 2.41 (i686-pc-mingw32) using BFD version (GNU Binutils) 2.41
+        COMPILER_PATH=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/;C:/Users/slaim/gcc/bin/../libexec/gcc/;C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/bin/
+        LIBRARY_PATH=C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/;C:/Users/slaim/gcc/bin/../lib/gcc/;C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/;C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_0cbcf.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles\\cmTC_0cbcf.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_0cbcf.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_0cbcf.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_0cbcf.dir/objects.a
+        C:\\Users\\slaim\\gcc\\bin\\ar.exe qc CMakeFiles\\cmTC_0cbcf.dir/objects.a @CMakeFiles\\cmTC_0cbcf.dir\\objects1.rsp
+        C:\\Users\\slaim\\gcc\\bin\\c++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_0cbcf.dir/objects.a -Wl,--no-whole-archive -o cmTC_0cbcf.exe -Wl,--out-implib,libcmTC_0cbcf.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        Built by Equation Solution <http://www.Equation.com>.
+        Using built-in specs.
+        COLLECT_GCC=C:\\Users\\slaim\\gcc\\bin\\c++.exe
+        COLLECT_LTO_WRAPPER=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/lto-wrapper.exe
+        Target: i686-pc-mingw32
+        Configured with: ../gcc-14.1.0/configure --host=i686-pc-mingw32 --build=x86_64-unknown-linux-gnu --target=i686-pc-mingw32 --prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gcc/14.1.0 --with-gcc --with-gnu-as --with-gnu-ld --with-cloog=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/cloog --with-gmp=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gmp --with-mpfr=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpfr --with-mpc=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpc --with-libiconv-prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/libiconv --with-diagnostics-color=auto --enable-cloog-backend=isl --with-sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0 --disable-nls --disable-tls --disable-libgcc2 --disable-win32-registry --enable-build-with-cxx --enable-libquadmath-support --enable-libquadmath --enable-languages=c,c++,fortran --enable-libgomp --enable-threads=win32 --enable-lto --disable-checking --enable-static --enable-shared=lto-plugin --enable-plugins --enable-ld=yes
+        Thread model: win32
+        Supported LTO compression algorithms: zlib
+        gcc version 14.1.0 (GCC) 
+        COMPILER_PATH=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/;C:/Users/slaim/gcc/bin/../libexec/gcc/;C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/bin/
+        LIBRARY_PATH=C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/;C:/Users/slaim/gcc/bin/../lib/gcc/;C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/;C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0cbcf.exe' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'cmTC_0cbcf.'
+         C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/collect2.exe -plugin C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/liblto_plugin.dll -plugin-opt=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\slaim\\AppData\\Local\\Temp\\ccS7exEc.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0 -Bdynamic -o cmTC_0cbcf.exe C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/crt2.o C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtbegin.o -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0 -LC:/Users/slaim/gcc/bin/../lib/gcc -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_0cbcf.dir/objects.a --no-whole-archive --out-implib libcmTC_0cbcf.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtend.o
+        collect2 version 14.1.0
+        C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/bin/ld.exe -plugin C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/liblto_plugin.dll -plugin-opt=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\slaim\\AppData\\Local\\Temp\\ccS7exEc.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0 -Bdynamic -o cmTC_0cbcf.exe C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/crt2.o C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtbegin.o -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0 -LC:/Users/slaim/gcc/bin/../lib/gcc -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_0cbcf.dir/objects.a --no-whole-archive --out-implib libcmTC_0cbcf.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtend.o
+        GNU ld (GNU Binutils) 2.41
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0cbcf.exe' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'cmTC_0cbcf.'
+        mingw32-make[1]: Leaving directory 'C:/Users/slaim/github-classroom/is-itmo-c-24/labwork_5_boost/build/CMakeFiles/CMakeScratch/TryCompile-qrz0f6'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../include/c++/14.1.0]
+          add: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../include/c++/14.1.0/i686-pc-mingw32]
+          add: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../include/c++/14.1.0/backward]
+          add: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/include]
+          add: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/include-fixed]
+          add: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/include]
+        end of search list found
+        collapse include dir [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../include/c++/14.1.0] ==> [C:/Users/slaim/gcc/include/c++/14.1.0]
+        collapse include dir [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../include/c++/14.1.0/i686-pc-mingw32] ==> [C:/Users/slaim/gcc/include/c++/14.1.0/i686-pc-mingw32]
+        collapse include dir [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../include/c++/14.1.0/backward] ==> [C:/Users/slaim/gcc/include/c++/14.1.0/backward]
+        collapse include dir [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/include] ==> [C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0/include]
+        collapse include dir [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/include-fixed] ==> [C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0/include-fixed]
+        collapse include dir [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/include] ==> [C:/Users/slaim/gcc/i686-pc-mingw32/include]
+        implicit include dirs: [C:/Users/slaim/gcc/include/c++/14.1.0;C:/Users/slaim/gcc/include/c++/14.1.0/i686-pc-mingw32;C:/Users/slaim/gcc/include/c++/14.1.0/backward;C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0/include;C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0/include-fixed;C:/Users/slaim/gcc/i686-pc-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Users/slaim/github-classroom/is-itmo-c-24/labwork_5_boost/build/CMakeFiles/CMakeScratch/TryCompile-qrz0f6']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_0cbcf/fast]
+        ignore line: [C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_0cbcf.dir\\build.make CMakeFiles/cmTC_0cbcf.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/slaim/github-classroom/is-itmo-c-24/labwork_5_boost/build/CMakeFiles/CMakeScratch/TryCompile-qrz0f6']
+        ignore line: [Building CXX object CMakeFiles/cmTC_0cbcf.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\Users\\slaim\\gcc\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_0cbcf.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Built by Equation Solution <http://www.Equation.com>.]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Users\\slaim\\gcc\\bin\\c++.exe]
+        ignore line: [Target: i686-pc-mingw32]
+        ignore line: [Configured with: ../gcc-14.1.0/configure --host=i686-pc-mingw32 --build=x86_64-unknown-linux-gnu --target=i686-pc-mingw32 --prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gcc/14.1.0 --with-gcc --with-gnu-as --with-gnu-ld --with-cloog=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/cloog --with-gmp=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gmp --with-mpfr=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpfr --with-mpc=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpc --with-libiconv-prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/libiconv --with-diagnostics-color=auto --enable-cloog-backend=isl --with-sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0 --disable-nls --disable-tls --disable-libgcc2 --disable-win32-registry --enable-build-with-cxx --enable-libquadmath-support --enable-libquadmath --enable-languages=c,c++,fortran --enable-libgomp --enable-threads=win32 --enable-lto --disable-checking --enable-static --enable-shared=lto-plugin --enable-plugins --enable-ld=yes]
+        ignore line: [Thread model: win32]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 14.1.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_0cbcf.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles\\cmTC_0cbcf.dir\\']
+        ignore line: [ C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/ C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_0cbcf.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=pentiumpro -version -o C:\\Users\\slaim\\AppData\\Local\\Temp\\ccYYse2Z.s]
+        ignore line: [GNU C++17 (GCC) version 14.1.0 (i686-pc-mingw32)]
+        ignore line: [	compiled by GNU C version 14.1.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/Users/slaim/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/14.1.0/../../../../include/c++/14.1.0"]
+        ignore line: [ignoring duplicate directory "C:/Users/slaim/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/14.1.0/../../../../include/c++/14.1.0/i686-pc-mingw32"]
+        ignore line: [ignoring duplicate directory "C:/Users/slaim/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/14.1.0/../../../../include/c++/14.1.0/backward"]
+        ignore line: [ignoring duplicate directory "C:/Users/slaim/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/14.1.0/include"]
+        ignore line: [ignoring nonexistent directory "/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gcc/14.1.0/lib/gcc/i686-pc-mingw32/14.1.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "C:/Users/slaim/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/14.1.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/Users/slaim/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../include/c++/14.1.0]
+        ignore line: [ C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../include/c++/14.1.0/i686-pc-mingw32]
+        ignore line: [ C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../include/c++/14.1.0/backward]
+        ignore line: [ C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/include]
+        ignore line: [ C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/include-fixed]
+        ignore line: [ C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: e86cb395cc573b1819fb8df51e021635]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_0cbcf.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles\\cmTC_0cbcf.dir\\']
+        ignore line: [ C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_0cbcf.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\slaim\\AppData\\Local\\Temp\\ccYYse2Z.s]
+        ignore line: [GNU assembler version 2.41 (i686-pc-mingw32) using BFD version (GNU Binutils) 2.41]
+        ignore line: [COMPILER_PATH=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/]
+        ignore line: [C:/Users/slaim/gcc/bin/../libexec/gcc/]
+        ignore line: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/]
+        ignore line: [C:/Users/slaim/gcc/bin/../lib/gcc/]
+        ignore line: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/]
+        ignore line: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_0cbcf.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles\\cmTC_0cbcf.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_0cbcf.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_0cbcf.dir\\link.txt --verbose=1]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_0cbcf.dir/objects.a]
+        ignore line: [C:\\Users\\slaim\\gcc\\bin\\ar.exe qc CMakeFiles\\cmTC_0cbcf.dir/objects.a @CMakeFiles\\cmTC_0cbcf.dir\\objects1.rsp]
+        ignore line: [C:\\Users\\slaim\\gcc\\bin\\c++.exe  -v -Wl -v -Wl --whole-archive CMakeFiles\\cmTC_0cbcf.dir/objects.a -Wl --no-whole-archive -o cmTC_0cbcf.exe -Wl --out-implib libcmTC_0cbcf.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [Built by Equation Solution <http://www.Equation.com>.]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Users\\slaim\\gcc\\bin\\c++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/lto-wrapper.exe]
+        ignore line: [Target: i686-pc-mingw32]
+        ignore line: [Configured with: ../gcc-14.1.0/configure --host=i686-pc-mingw32 --build=x86_64-unknown-linux-gnu --target=i686-pc-mingw32 --prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gcc/14.1.0 --with-gcc --with-gnu-as --with-gnu-ld --with-cloog=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/cloog --with-gmp=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gmp --with-mpfr=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpfr --with-mpc=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpc --with-libiconv-prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/libiconv --with-diagnostics-color=auto --enable-cloog-backend=isl --with-sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0 --disable-nls --disable-tls --disable-libgcc2 --disable-win32-registry --enable-build-with-cxx --enable-libquadmath-support --enable-libquadmath --enable-languages=c,c++,fortran --enable-libgomp --enable-threads=win32 --enable-lto --disable-checking --enable-static --enable-shared=lto-plugin --enable-plugins --enable-ld=yes]
+        ignore line: [Thread model: win32]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 14.1.0 (GCC) ]
+        ignore line: [COMPILER_PATH=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/]
+        ignore line: [C:/Users/slaim/gcc/bin/../libexec/gcc/]
+        ignore line: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/]
+        ignore line: [C:/Users/slaim/gcc/bin/../lib/gcc/]
+        ignore line: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/]
+        ignore line: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_0cbcf.exe' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'cmTC_0cbcf.']
+        link line: [ C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/collect2.exe -plugin C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/liblto_plugin.dll -plugin-opt=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\slaim\\AppData\\Local\\Temp\\ccS7exEc.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0 -Bdynamic -o cmTC_0cbcf.exe C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/crt2.o C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtbegin.o -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0 -LC:/Users/slaim/gcc/bin/../lib/gcc -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_0cbcf.dir/objects.a --no-whole-archive --out-implib libcmTC_0cbcf.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtend.o]
+          arg [C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\slaim\\AppData\\Local\\Temp\\ccS7exEc.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [--sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_0cbcf.exe] ==> ignore
+          arg [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/crt2.o] ==> obj [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/crt2.o]
+          arg [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtbegin.o] ==> obj [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtbegin.o]
+          arg [-LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0] ==> dir [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0]
+          arg [-LC:/Users/slaim/gcc/bin/../lib/gcc] ==> dir [C:/Users/slaim/gcc/bin/../lib/gcc]
+          arg [-LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib] ==> dir [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib]
+          arg [-LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../..] ==> dir [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../..]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_0cbcf.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_0cbcf.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtend.o] ==> obj [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtend.o]
+        ignore line: [collect2 version 14.1.0]
+        ignore line: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/bin/ld.exe -plugin C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/liblto_plugin.dll -plugin-opt=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\slaim\\AppData\\Local\\Temp\\ccS7exEc.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0 -Bdynamic -o cmTC_0cbcf.exe C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/crt2.o C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtbegin.o -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0 -LC:/Users/slaim/gcc/bin/../lib/gcc -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_0cbcf.dir/objects.a --no-whole-archive --out-implib libcmTC_0cbcf.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtend.o]
+        linker tool for 'CXX': C:/Users/slaim/gcc/i686-pc-mingw32/bin/ld.exe
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/crt2.o] ==> [C:/Users/slaim/gcc/i686-pc-mingw32/lib/crt2.o]
+        collapse obj [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtbegin.o] ==> [C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0/crtbegin.o]
+        collapse obj [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtend.o] ==> [C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0/crtend.o]
+        collapse library dir [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0] ==> [C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0]
+        collapse library dir [C:/Users/slaim/gcc/bin/../lib/gcc] ==> [C:/Users/slaim/gcc/lib/gcc]
+        collapse library dir [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib] ==> [C:/Users/slaim/gcc/i686-pc-mingw32/lib]
+        collapse library dir [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../..] ==> [C:/Users/slaim/gcc/lib]
+        implicit libs: [stdc++;mingw32;gcc;moldname;mingwex;kernel32;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex;kernel32]
+        implicit objs: [C:/Users/slaim/gcc/i686-pc-mingw32/lib/crt2.o;C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0/crtbegin.o;C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0/crtend.o]
+        implicit dirs: [C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0;C:/Users/slaim/gcc/lib/gcc;C:/Users/slaim/gcc/i686-pc-mingw32/lib;C:/Users/slaim/gcc/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Users/slaim/gcc/i686-pc-mingw32/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.41
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Users/slaim/gcc/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/slaim/github-classroom/is-itmo-c-24/sea_battle/build/CMakeFiles/3.30.3/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Users/slaim/gcc/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/slaim/github-classroom/is-itmo-c-24/sea_battle/build/CMakeFiles/3.30.3/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/slaim/github-classroom/is-itmo-c-24/sea_battle/build/CMakeFiles/CMakeScratch/TryCompile-uj38hy"
+      binary: "C:/Users/slaim/github-classroom/is-itmo-c-24/sea_battle/build/CMakeFiles/CMakeScratch/TryCompile-uj38hy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/slaim/github-classroom/is-itmo-c-24/sea_battle/build/CMakeFiles/CMakeScratch/TryCompile-uj38hy'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/slaim/gcc/bin/make.exe -f Makefile cmTC_616de/fast
+        C:/Users/slaim/gcc/bin/make.exe  -f CMakeFiles/cmTC_616de.dir/build.make CMakeFiles/cmTC_616de.dir/build
+        make[1]: Entering directory 'C:/Users/slaim/github-classroom/is-itmo-c-24/sea_battle/build/CMakeFiles/CMakeScratch/TryCompile-uj38hy'
+        Building C object CMakeFiles/cmTC_616de.dir/CMakeCCompilerABI.c.obj
+        C:/Users/slaim/gcc/bin/gcc.exe   -v -o CMakeFiles/cmTC_616de.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeCCompilerABI.c"
+        Built by Equation Solution <http://www.Equation.com>.
+        Using built-in specs.
+        COLLECT_GCC=C:/Users/slaim/gcc/bin/gcc.exe
+        Target: i686-pc-mingw32
+        Configured with: ../gcc-14.1.0/configure --host=i686-pc-mingw32 --build=x86_64-unknown-linux-gnu --target=i686-pc-mingw32 --prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gcc/14.1.0 --with-gcc --with-gnu-as --with-gnu-ld --with-cloog=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/cloog --with-gmp=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gmp --with-mpfr=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpfr --with-mpc=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpc --with-libiconv-prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/libiconv --with-diagnostics-color=auto --enable-cloog-backend=isl --with-sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0 --disable-nls --disable-tls --disable-libgcc2 --disable-win32-registry --enable-build-with-cxx --enable-libquadmath-support --enable-libquadmath --enable-languages=c,c++,fortran --enable-libgomp --enable-threads=win32 --enable-lto --disable-checking --enable-static --enable-shared=lto-plugin --enable-plugins --enable-ld=yes
+        Thread model: win32
+        Supported LTO compression algorithms: zlib
+        gcc version 14.1.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_616de.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_616de.dir/'
+         C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/cc1.exe -quiet -v -iprefix C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/ C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_616de.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=pentiumpro -version -o C:\\Users\\slaim\\AppData\\Local\\Temp\\ccWA9ddw.s
+        GNU C17 (GCC) version 14.1.0 (i686-pc-mingw32)
+        	compiled by GNU C version 14.1.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/Users/slaim/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/14.1.0/include"
+        ignoring nonexistent directory "/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gcc/14.1.0/lib/gcc/i686-pc-mingw32/14.1.0/../../../../include"
+        ignoring duplicate directory "C:/Users/slaim/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/14.1.0/include-fixed"
+        ignoring duplicate directory "C:/Users/slaim/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/include"
+        ignoring nonexistent directory "/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/include
+         C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/include-fixed
+         C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/include
+        End of search list.
+        Compiler executable checksum: d2e558b9b55fc0ff89dcb856405f4c1c
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_616de.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_616de.dir/'
+         C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_616de.dir/CMakeCCompilerABI.c.obj C:\\Users\\slaim\\AppData\\Local\\Temp\\ccWA9ddw.s
+        GNU assembler version 2.41 (i686-pc-mingw32) using BFD version (GNU Binutils) 2.41
+        COMPILER_PATH=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/;C:/Users/slaim/gcc/bin/../libexec/gcc/;C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/bin/
+        LIBRARY_PATH=C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/;C:/Users/slaim/gcc/bin/../lib/gcc/;C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/;C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_616de.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_616de.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_616de.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_616de.dir/objects.a
+        C:/Users/slaim/gcc/bin/ar.exe qc CMakeFiles/cmTC_616de.dir/objects.a @CMakeFiles/cmTC_616de.dir/objects1.rsp
+        C:/Users/slaim/gcc/bin/gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles/cmTC_616de.dir/objects.a -Wl,--no-whole-archive -o cmTC_616de.exe -Wl,--out-implib,libcmTC_616de.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        Built by Equation Solution <http://www.Equation.com>.
+        Using built-in specs.
+        COLLECT_GCC=C:/Users/slaim/gcc/bin/gcc.exe
+        COLLECT_LTO_WRAPPER=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/lto-wrapper.exe
+        Target: i686-pc-mingw32
+        Configured with: ../gcc-14.1.0/configure --host=i686-pc-mingw32 --build=x86_64-unknown-linux-gnu --target=i686-pc-mingw32 --prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gcc/14.1.0 --with-gcc --with-gnu-as --with-gnu-ld --with-cloog=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/cloog --with-gmp=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gmp --with-mpfr=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpfr --with-mpc=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpc --with-libiconv-prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/libiconv --with-diagnostics-color=auto --enable-cloog-backend=isl --with-sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0 --disable-nls --disable-tls --disable-libgcc2 --disable-win32-registry --enable-build-with-cxx --enable-libquadmath-support --enable-libquadmath --enable-languages=c,c++,fortran --enable-libgomp --enable-threads=win32 --enable-lto --disable-checking --enable-static --enable-shared=lto-plugin --enable-plugins --enable-ld=yes
+        Thread model: win32
+        Supported LTO compression algorithms: zlib
+        gcc version 14.1.0 (GCC) 
+        COMPILER_PATH=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/;C:/Users/slaim/gcc/bin/../libexec/gcc/;C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/bin/
+        LIBRARY_PATH=C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/;C:/Users/slaim/gcc/bin/../lib/gcc/;C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/;C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_616de.exe' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'cmTC_616de.'
+         C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/collect2.exe -plugin C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/liblto_plugin.dll -plugin-opt=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\slaim\\AppData\\Local\\Temp\\ccWGdS8E.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0 -Bdynamic -o cmTC_616de.exe C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/crt2.o C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtbegin.o -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0 -LC:/Users/slaim/gcc/bin/../lib/gcc -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../.. -v --whole-archive CMakeFiles/cmTC_616de.dir/objects.a --no-whole-archive --out-implib libcmTC_616de.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtend.o
+        collect2 version 14.1.0
+        C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/bin/ld.exe -plugin C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/liblto_plugin.dll -plugin-opt=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\slaim\\AppData\\Local\\Temp\\ccWGdS8E.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0 -Bdynamic -o cmTC_616de.exe C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/crt2.o C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtbegin.o -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0 -LC:/Users/slaim/gcc/bin/../lib/gcc -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../.. -v --whole-archive CMakeFiles/cmTC_616de.dir/objects.a --no-whole-archive --out-implib libcmTC_616de.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtend.o
+        GNU ld (GNU Binutils) 2.41
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_616de.exe' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'cmTC_616de.'
+        make[1]: Leaving directory 'C:/Users/slaim/github-classroom/is-itmo-c-24/sea_battle/build/CMakeFiles/CMakeScratch/TryCompile-uj38hy'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/include]
+          add: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/include-fixed]
+          add: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/include]
+        end of search list found
+        collapse include dir [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/include] ==> [C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0/include]
+        collapse include dir [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/include-fixed] ==> [C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0/include-fixed]
+        collapse include dir [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/include] ==> [C:/Users/slaim/gcc/i686-pc-mingw32/include]
+        implicit include dirs: [C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0/include;C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0/include-fixed;C:/Users/slaim/gcc/i686-pc-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Users/slaim/github-classroom/is-itmo-c-24/sea_battle/build/CMakeFiles/CMakeScratch/TryCompile-uj38hy']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/slaim/gcc/bin/make.exe -f Makefile cmTC_616de/fast]
+        ignore line: [C:/Users/slaim/gcc/bin/make.exe  -f CMakeFiles/cmTC_616de.dir/build.make CMakeFiles/cmTC_616de.dir/build]
+        ignore line: [make[1]: Entering directory 'C:/Users/slaim/github-classroom/is-itmo-c-24/sea_battle/build/CMakeFiles/CMakeScratch/TryCompile-uj38hy']
+        ignore line: [Building C object CMakeFiles/cmTC_616de.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:/Users/slaim/gcc/bin/gcc.exe   -v -o CMakeFiles/cmTC_616de.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeCCompilerABI.c"]
+        ignore line: [Built by Equation Solution <http://www.Equation.com>.]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:/Users/slaim/gcc/bin/gcc.exe]
+        ignore line: [Target: i686-pc-mingw32]
+        ignore line: [Configured with: ../gcc-14.1.0/configure --host=i686-pc-mingw32 --build=x86_64-unknown-linux-gnu --target=i686-pc-mingw32 --prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gcc/14.1.0 --with-gcc --with-gnu-as --with-gnu-ld --with-cloog=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/cloog --with-gmp=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gmp --with-mpfr=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpfr --with-mpc=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpc --with-libiconv-prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/libiconv --with-diagnostics-color=auto --enable-cloog-backend=isl --with-sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0 --disable-nls --disable-tls --disable-libgcc2 --disable-win32-registry --enable-build-with-cxx --enable-libquadmath-support --enable-libquadmath --enable-languages=c,c++,fortran --enable-libgomp --enable-threads=win32 --enable-lto --disable-checking --enable-static --enable-shared=lto-plugin --enable-plugins --enable-ld=yes]
+        ignore line: [Thread model: win32]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 14.1.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_616de.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_616de.dir/']
+        ignore line: [ C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/cc1.exe -quiet -v -iprefix C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/ C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_616de.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=pentiumpro -version -o C:\\Users\\slaim\\AppData\\Local\\Temp\\ccWA9ddw.s]
+        ignore line: [GNU C17 (GCC) version 14.1.0 (i686-pc-mingw32)]
+        ignore line: [	compiled by GNU C version 14.1.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/Users/slaim/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/14.1.0/include"]
+        ignore line: [ignoring nonexistent directory "/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gcc/14.1.0/lib/gcc/i686-pc-mingw32/14.1.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "C:/Users/slaim/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/14.1.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/Users/slaim/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/include]
+        ignore line: [ C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/include-fixed]
+        ignore line: [ C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: d2e558b9b55fc0ff89dcb856405f4c1c]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_616de.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_616de.dir/']
+        ignore line: [ C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_616de.dir/CMakeCCompilerABI.c.obj C:\\Users\\slaim\\AppData\\Local\\Temp\\ccWA9ddw.s]
+        ignore line: [GNU assembler version 2.41 (i686-pc-mingw32) using BFD version (GNU Binutils) 2.41]
+        ignore line: [COMPILER_PATH=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/]
+        ignore line: [C:/Users/slaim/gcc/bin/../libexec/gcc/]
+        ignore line: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/]
+        ignore line: [C:/Users/slaim/gcc/bin/../lib/gcc/]
+        ignore line: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/]
+        ignore line: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_616de.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_616de.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_616de.exe]
+        ignore line: ["C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_616de.dir/objects.a]
+        ignore line: [C:/Users/slaim/gcc/bin/ar.exe qc CMakeFiles/cmTC_616de.dir/objects.a @CMakeFiles/cmTC_616de.dir/objects1.rsp]
+        ignore line: [C:/Users/slaim/gcc/bin/gcc.exe  -v -Wl -v -Wl --whole-archive CMakeFiles/cmTC_616de.dir/objects.a -Wl --no-whole-archive -o cmTC_616de.exe -Wl --out-implib libcmTC_616de.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [Built by Equation Solution <http://www.Equation.com>.]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:/Users/slaim/gcc/bin/gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/lto-wrapper.exe]
+        ignore line: [Target: i686-pc-mingw32]
+        ignore line: [Configured with: ../gcc-14.1.0/configure --host=i686-pc-mingw32 --build=x86_64-unknown-linux-gnu --target=i686-pc-mingw32 --prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gcc/14.1.0 --with-gcc --with-gnu-as --with-gnu-ld --with-cloog=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/cloog --with-gmp=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gmp --with-mpfr=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpfr --with-mpc=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpc --with-libiconv-prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/libiconv --with-diagnostics-color=auto --enable-cloog-backend=isl --with-sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0 --disable-nls --disable-tls --disable-libgcc2 --disable-win32-registry --enable-build-with-cxx --enable-libquadmath-support --enable-libquadmath --enable-languages=c,c++,fortran --enable-libgomp --enable-threads=win32 --enable-lto --disable-checking --enable-static --enable-shared=lto-plugin --enable-plugins --enable-ld=yes]
+        ignore line: [Thread model: win32]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 14.1.0 (GCC) ]
+        ignore line: [COMPILER_PATH=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/]
+        ignore line: [C:/Users/slaim/gcc/bin/../libexec/gcc/]
+        ignore line: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/]
+        ignore line: [C:/Users/slaim/gcc/bin/../lib/gcc/]
+        ignore line: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/]
+        ignore line: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_616de.exe' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'cmTC_616de.']
+        link line: [ C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/collect2.exe -plugin C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/liblto_plugin.dll -plugin-opt=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\slaim\\AppData\\Local\\Temp\\ccWGdS8E.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0 -Bdynamic -o cmTC_616de.exe C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/crt2.o C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtbegin.o -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0 -LC:/Users/slaim/gcc/bin/../lib/gcc -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../.. -v --whole-archive CMakeFiles/cmTC_616de.dir/objects.a --no-whole-archive --out-implib libcmTC_616de.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtend.o]
+          arg [C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\slaim\\AppData\\Local\\Temp\\ccWGdS8E.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [--sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_616de.exe] ==> ignore
+          arg [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/crt2.o] ==> obj [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/crt2.o]
+          arg [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtbegin.o] ==> obj [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtbegin.o]
+          arg [-LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0] ==> dir [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0]
+          arg [-LC:/Users/slaim/gcc/bin/../lib/gcc] ==> dir [C:/Users/slaim/gcc/bin/../lib/gcc]
+          arg [-LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib] ==> dir [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib]
+          arg [-LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../..] ==> dir [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../..]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles/cmTC_616de.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_616de.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtend.o] ==> obj [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtend.o]
+        ignore line: [collect2 version 14.1.0]
+        ignore line: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/bin/ld.exe -plugin C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/liblto_plugin.dll -plugin-opt=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\slaim\\AppData\\Local\\Temp\\ccWGdS8E.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0 -Bdynamic -o cmTC_616de.exe C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/crt2.o C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtbegin.o -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0 -LC:/Users/slaim/gcc/bin/../lib/gcc -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../.. -v --whole-archive CMakeFiles/cmTC_616de.dir/objects.a --no-whole-archive --out-implib libcmTC_616de.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtend.o]
+        linker tool for 'C': C:/Users/slaim/gcc/i686-pc-mingw32/bin/ld.exe
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/crt2.o] ==> [C:/Users/slaim/gcc/i686-pc-mingw32/lib/crt2.o]
+        collapse obj [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtbegin.o] ==> [C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0/crtbegin.o]
+        collapse obj [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtend.o] ==> [C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0/crtend.o]
+        collapse library dir [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0] ==> [C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0]
+        collapse library dir [C:/Users/slaim/gcc/bin/../lib/gcc] ==> [C:/Users/slaim/gcc/lib/gcc]
+        collapse library dir [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib] ==> [C:/Users/slaim/gcc/i686-pc-mingw32/lib]
+        collapse library dir [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../..] ==> [C:/Users/slaim/gcc/lib]
+        implicit libs: [mingw32;gcc;moldname;mingwex;kernel32;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex;kernel32]
+        implicit objs: [C:/Users/slaim/gcc/i686-pc-mingw32/lib/crt2.o;C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0/crtbegin.o;C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0/crtend.o]
+        implicit dirs: [C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0;C:/Users/slaim/gcc/lib/gcc;C:/Users/slaim/gcc/i686-pc-mingw32/lib;C:/Users/slaim/gcc/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Users/slaim/gcc/i686-pc-mingw32/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.41
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/slaim/github-classroom/is-itmo-c-24/sea_battle/build/CMakeFiles/CMakeScratch/TryCompile-ir5n5n"
+      binary: "C:/Users/slaim/github-classroom/is-itmo-c-24/sea_battle/build/CMakeFiles/CMakeScratch/TryCompile-ir5n5n"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/slaim/github-classroom/is-itmo-c-24/sea_battle/build/CMakeFiles/CMakeScratch/TryCompile-ir5n5n'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/slaim/gcc/bin/make.exe -f Makefile cmTC_34b96/fast
+        C:/Users/slaim/gcc/bin/make.exe  -f CMakeFiles/cmTC_34b96.dir/build.make CMakeFiles/cmTC_34b96.dir/build
+        make[1]: Entering directory 'C:/Users/slaim/github-classroom/is-itmo-c-24/sea_battle/build/CMakeFiles/CMakeScratch/TryCompile-ir5n5n'
+        Building CXX object CMakeFiles/cmTC_34b96.dir/CMakeCXXCompilerABI.cpp.obj
+        C:/Users/slaim/gcc/bin/g++.exe   -v -o CMakeFiles/cmTC_34b96.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp"
+        Built by Equation Solution <http://www.Equation.com>.
+        Using built-in specs.
+        COLLECT_GCC=C:/Users/slaim/gcc/bin/g++.exe
+        Target: i686-pc-mingw32
+        Configured with: ../gcc-14.1.0/configure --host=i686-pc-mingw32 --build=x86_64-unknown-linux-gnu --target=i686-pc-mingw32 --prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gcc/14.1.0 --with-gcc --with-gnu-as --with-gnu-ld --with-cloog=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/cloog --with-gmp=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gmp --with-mpfr=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpfr --with-mpc=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpc --with-libiconv-prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/libiconv --with-diagnostics-color=auto --enable-cloog-backend=isl --with-sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0 --disable-nls --disable-tls --disable-libgcc2 --disable-win32-registry --enable-build-with-cxx --enable-libquadmath-support --enable-libquadmath --enable-languages=c,c++,fortran --enable-libgomp --enable-threads=win32 --enable-lto --disable-checking --enable-static --enable-shared=lto-plugin --enable-plugins --enable-ld=yes
+        Thread model: win32
+        Supported LTO compression algorithms: zlib
+        gcc version 14.1.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_34b96.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_34b96.dir/'
+         C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/ C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_34b96.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=pentiumpro -version -o C:\\Users\\slaim\\AppData\\Local\\Temp\\ccpBXyCF.s
+        GNU C++17 (GCC) version 14.1.0 (i686-pc-mingw32)
+        	compiled by GNU C version 14.1.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/Users/slaim/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/14.1.0/../../../../include/c++/14.1.0"
+        ignoring duplicate directory "C:/Users/slaim/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/14.1.0/../../../../include/c++/14.1.0/i686-pc-mingw32"
+        ignoring duplicate directory "C:/Users/slaim/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/14.1.0/../../../../include/c++/14.1.0/backward"
+        ignoring duplicate directory "C:/Users/slaim/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/14.1.0/include"
+        ignoring nonexistent directory "/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gcc/14.1.0/lib/gcc/i686-pc-mingw32/14.1.0/../../../../include"
+        ignoring duplicate directory "C:/Users/slaim/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/14.1.0/include-fixed"
+        ignoring duplicate directory "C:/Users/slaim/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/include"
+        ignoring nonexistent directory "/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../include/c++/14.1.0
+         C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../include/c++/14.1.0/i686-pc-mingw32
+         C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../include/c++/14.1.0/backward
+         C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/include
+         C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/include-fixed
+         C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/include
+        End of search list.
+        Compiler executable checksum: e86cb395cc573b1819fb8df51e021635
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_34b96.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_34b96.dir/'
+         C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_34b96.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\slaim\\AppData\\Local\\Temp\\ccpBXyCF.s
+        GNU assembler version 2.41 (i686-pc-mingw32) using BFD version (GNU Binutils) 2.41
+        COMPILER_PATH=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/;C:/Users/slaim/gcc/bin/../libexec/gcc/;C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/bin/
+        LIBRARY_PATH=C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/;C:/Users/slaim/gcc/bin/../lib/gcc/;C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/;C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_34b96.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_34b96.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_34b96.exe
+        "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_34b96.dir/objects.a
+        C:/Users/slaim/gcc/bin/ar.exe qc CMakeFiles/cmTC_34b96.dir/objects.a @CMakeFiles/cmTC_34b96.dir/objects1.rsp
+        C:/Users/slaim/gcc/bin/g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles/cmTC_34b96.dir/objects.a -Wl,--no-whole-archive -o cmTC_34b96.exe -Wl,--out-implib,libcmTC_34b96.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        Built by Equation Solution <http://www.Equation.com>.
+        Using built-in specs.
+        COLLECT_GCC=C:/Users/slaim/gcc/bin/g++.exe
+        COLLECT_LTO_WRAPPER=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/lto-wrapper.exe
+        Target: i686-pc-mingw32
+        Configured with: ../gcc-14.1.0/configure --host=i686-pc-mingw32 --build=x86_64-unknown-linux-gnu --target=i686-pc-mingw32 --prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gcc/14.1.0 --with-gcc --with-gnu-as --with-gnu-ld --with-cloog=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/cloog --with-gmp=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gmp --with-mpfr=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpfr --with-mpc=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpc --with-libiconv-prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/libiconv --with-diagnostics-color=auto --enable-cloog-backend=isl --with-sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0 --disable-nls --disable-tls --disable-libgcc2 --disable-win32-registry --enable-build-with-cxx --enable-libquadmath-support --enable-libquadmath --enable-languages=c,c++,fortran --enable-libgomp --enable-threads=win32 --enable-lto --disable-checking --enable-static --enable-shared=lto-plugin --enable-plugins --enable-ld=yes
+        Thread model: win32
+        Supported LTO compression algorithms: zlib
+        gcc version 14.1.0 (GCC) 
+        COMPILER_PATH=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/;C:/Users/slaim/gcc/bin/../libexec/gcc/;C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/bin/
+        LIBRARY_PATH=C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/;C:/Users/slaim/gcc/bin/../lib/gcc/;C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/;C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_34b96.exe' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'cmTC_34b96.'
+         C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/collect2.exe -plugin C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/liblto_plugin.dll -plugin-opt=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\slaim\\AppData\\Local\\Temp\\ccdpUoaY.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0 -Bdynamic -o cmTC_34b96.exe C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/crt2.o C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtbegin.o -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0 -LC:/Users/slaim/gcc/bin/../lib/gcc -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../.. -v --whole-archive CMakeFiles/cmTC_34b96.dir/objects.a --no-whole-archive --out-implib libcmTC_34b96.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtend.o
+        collect2 version 14.1.0
+        C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/bin/ld.exe -plugin C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/liblto_plugin.dll -plugin-opt=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\slaim\\AppData\\Local\\Temp\\ccdpUoaY.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0 -Bdynamic -o cmTC_34b96.exe C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/crt2.o C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtbegin.o -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0 -LC:/Users/slaim/gcc/bin/../lib/gcc -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../.. -v --whole-archive CMakeFiles/cmTC_34b96.dir/objects.a --no-whole-archive --out-implib libcmTC_34b96.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtend.o
+        GNU ld (GNU Binutils) 2.41
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_34b96.exe' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'cmTC_34b96.'
+        make[1]: Leaving directory 'C:/Users/slaim/github-classroom/is-itmo-c-24/sea_battle/build/CMakeFiles/CMakeScratch/TryCompile-ir5n5n'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../include/c++/14.1.0]
+          add: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../include/c++/14.1.0/i686-pc-mingw32]
+          add: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../include/c++/14.1.0/backward]
+          add: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/include]
+          add: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/include-fixed]
+          add: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/include]
+        end of search list found
+        collapse include dir [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../include/c++/14.1.0] ==> [C:/Users/slaim/gcc/include/c++/14.1.0]
+        collapse include dir [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../include/c++/14.1.0/i686-pc-mingw32] ==> [C:/Users/slaim/gcc/include/c++/14.1.0/i686-pc-mingw32]
+        collapse include dir [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../include/c++/14.1.0/backward] ==> [C:/Users/slaim/gcc/include/c++/14.1.0/backward]
+        collapse include dir [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/include] ==> [C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0/include]
+        collapse include dir [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/include-fixed] ==> [C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0/include-fixed]
+        collapse include dir [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/include] ==> [C:/Users/slaim/gcc/i686-pc-mingw32/include]
+        implicit include dirs: [C:/Users/slaim/gcc/include/c++/14.1.0;C:/Users/slaim/gcc/include/c++/14.1.0/i686-pc-mingw32;C:/Users/slaim/gcc/include/c++/14.1.0/backward;C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0/include;C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0/include-fixed;C:/Users/slaim/gcc/i686-pc-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Users/slaim/github-classroom/is-itmo-c-24/sea_battle/build/CMakeFiles/CMakeScratch/TryCompile-ir5n5n']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Users/slaim/gcc/bin/make.exe -f Makefile cmTC_34b96/fast]
+        ignore line: [C:/Users/slaim/gcc/bin/make.exe  -f CMakeFiles/cmTC_34b96.dir/build.make CMakeFiles/cmTC_34b96.dir/build]
+        ignore line: [make[1]: Entering directory 'C:/Users/slaim/github-classroom/is-itmo-c-24/sea_battle/build/CMakeFiles/CMakeScratch/TryCompile-ir5n5n']
+        ignore line: [Building CXX object CMakeFiles/cmTC_34b96.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:/Users/slaim/gcc/bin/g++.exe   -v -o CMakeFiles/cmTC_34b96.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [Built by Equation Solution <http://www.Equation.com>.]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:/Users/slaim/gcc/bin/g++.exe]
+        ignore line: [Target: i686-pc-mingw32]
+        ignore line: [Configured with: ../gcc-14.1.0/configure --host=i686-pc-mingw32 --build=x86_64-unknown-linux-gnu --target=i686-pc-mingw32 --prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gcc/14.1.0 --with-gcc --with-gnu-as --with-gnu-ld --with-cloog=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/cloog --with-gmp=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gmp --with-mpfr=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpfr --with-mpc=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpc --with-libiconv-prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/libiconv --with-diagnostics-color=auto --enable-cloog-backend=isl --with-sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0 --disable-nls --disable-tls --disable-libgcc2 --disable-win32-registry --enable-build-with-cxx --enable-libquadmath-support --enable-libquadmath --enable-languages=c,c++,fortran --enable-libgomp --enable-threads=win32 --enable-lto --disable-checking --enable-static --enable-shared=lto-plugin --enable-plugins --enable-ld=yes]
+        ignore line: [Thread model: win32]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 14.1.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_34b96.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_34b96.dir/']
+        ignore line: [ C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/ C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_34b96.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=pentiumpro -version -o C:\\Users\\slaim\\AppData\\Local\\Temp\\ccpBXyCF.s]
+        ignore line: [GNU C++17 (GCC) version 14.1.0 (i686-pc-mingw32)]
+        ignore line: [	compiled by GNU C version 14.1.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/Users/slaim/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/14.1.0/../../../../include/c++/14.1.0"]
+        ignore line: [ignoring duplicate directory "C:/Users/slaim/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/14.1.0/../../../../include/c++/14.1.0/i686-pc-mingw32"]
+        ignore line: [ignoring duplicate directory "C:/Users/slaim/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/14.1.0/../../../../include/c++/14.1.0/backward"]
+        ignore line: [ignoring duplicate directory "C:/Users/slaim/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/14.1.0/include"]
+        ignore line: [ignoring nonexistent directory "/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gcc/14.1.0/lib/gcc/i686-pc-mingw32/14.1.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "C:/Users/slaim/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/14.1.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/Users/slaim/gcc/lib/gcc/../../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../include/c++/14.1.0]
+        ignore line: [ C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../include/c++/14.1.0/i686-pc-mingw32]
+        ignore line: [ C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../include/c++/14.1.0/backward]
+        ignore line: [ C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/include]
+        ignore line: [ C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/include-fixed]
+        ignore line: [ C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: e86cb395cc573b1819fb8df51e021635]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_34b96.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_34b96.dir/']
+        ignore line: [ C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_34b96.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\slaim\\AppData\\Local\\Temp\\ccpBXyCF.s]
+        ignore line: [GNU assembler version 2.41 (i686-pc-mingw32) using BFD version (GNU Binutils) 2.41]
+        ignore line: [COMPILER_PATH=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/]
+        ignore line: [C:/Users/slaim/gcc/bin/../libexec/gcc/]
+        ignore line: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/]
+        ignore line: [C:/Users/slaim/gcc/bin/../lib/gcc/]
+        ignore line: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/]
+        ignore line: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_34b96.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_34b96.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_34b96.exe]
+        ignore line: ["C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_34b96.dir/objects.a]
+        ignore line: [C:/Users/slaim/gcc/bin/ar.exe qc CMakeFiles/cmTC_34b96.dir/objects.a @CMakeFiles/cmTC_34b96.dir/objects1.rsp]
+        ignore line: [C:/Users/slaim/gcc/bin/g++.exe  -v -Wl -v -Wl --whole-archive CMakeFiles/cmTC_34b96.dir/objects.a -Wl --no-whole-archive -o cmTC_34b96.exe -Wl --out-implib libcmTC_34b96.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [Built by Equation Solution <http://www.Equation.com>.]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:/Users/slaim/gcc/bin/g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/lto-wrapper.exe]
+        ignore line: [Target: i686-pc-mingw32]
+        ignore line: [Configured with: ../gcc-14.1.0/configure --host=i686-pc-mingw32 --build=x86_64-unknown-linux-gnu --target=i686-pc-mingw32 --prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gcc/14.1.0 --with-gcc --with-gnu-as --with-gnu-ld --with-cloog=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/cloog --with-gmp=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/gmp --with-mpfr=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpfr --with-mpc=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/mpc --with-libiconv-prefix=/home/gfortran/gcc-home/binary/mingw32/native/x86_32/libiconv --with-diagnostics-color=auto --enable-cloog-backend=isl --with-sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0 --disable-nls --disable-tls --disable-libgcc2 --disable-win32-registry --enable-build-with-cxx --enable-libquadmath-support --enable-libquadmath --enable-languages=c,c++,fortran --enable-libgomp --enable-threads=win32 --enable-lto --disable-checking --enable-static --enable-shared=lto-plugin --enable-plugins --enable-ld=yes]
+        ignore line: [Thread model: win32]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 14.1.0 (GCC) ]
+        ignore line: [COMPILER_PATH=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/]
+        ignore line: [C:/Users/slaim/gcc/bin/../libexec/gcc/]
+        ignore line: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/]
+        ignore line: [C:/Users/slaim/gcc/bin/../lib/gcc/]
+        ignore line: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/]
+        ignore line: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_34b96.exe' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'cmTC_34b96.']
+        link line: [ C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/collect2.exe -plugin C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/liblto_plugin.dll -plugin-opt=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\slaim\\AppData\\Local\\Temp\\ccdpUoaY.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0 -Bdynamic -o cmTC_34b96.exe C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/crt2.o C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtbegin.o -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0 -LC:/Users/slaim/gcc/bin/../lib/gcc -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../.. -v --whole-archive CMakeFiles/cmTC_34b96.dir/objects.a --no-whole-archive --out-implib libcmTC_34b96.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtend.o]
+          arg [C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\slaim\\AppData\\Local\\Temp\\ccdpUoaY.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [--sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_34b96.exe] ==> ignore
+          arg [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/crt2.o] ==> obj [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/crt2.o]
+          arg [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtbegin.o] ==> obj [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtbegin.o]
+          arg [-LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0] ==> dir [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0]
+          arg [-LC:/Users/slaim/gcc/bin/../lib/gcc] ==> dir [C:/Users/slaim/gcc/bin/../lib/gcc]
+          arg [-LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib] ==> dir [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib]
+          arg [-LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../..] ==> dir [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../..]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles/cmTC_34b96.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_34b96.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtend.o] ==> obj [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtend.o]
+        ignore line: [collect2 version 14.1.0]
+        ignore line: [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/bin/ld.exe -plugin C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/liblto_plugin.dll -plugin-opt=C:/Users/slaim/gcc/bin/../libexec/gcc/i686-pc-mingw32/14.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\slaim\\AppData\\Local\\Temp\\ccdpUoaY.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/home/gfortran/gcc-home/binary/mingw32/cross/x86_32/gcc/14.1.0 -Bdynamic -o cmTC_34b96.exe C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/crt2.o C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtbegin.o -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0 -LC:/Users/slaim/gcc/bin/../lib/gcc -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib -LC:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../.. -v --whole-archive CMakeFiles/cmTC_34b96.dir/objects.a --no-whole-archive --out-implib libcmTC_34b96.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtend.o]
+        linker tool for 'CXX': C:/Users/slaim/gcc/i686-pc-mingw32/bin/ld.exe
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib/crt2.o] ==> [C:/Users/slaim/gcc/i686-pc-mingw32/lib/crt2.o]
+        collapse obj [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtbegin.o] ==> [C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0/crtbegin.o]
+        collapse obj [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/crtend.o] ==> [C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0/crtend.o]
+        collapse library dir [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0] ==> [C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0]
+        collapse library dir [C:/Users/slaim/gcc/bin/../lib/gcc] ==> [C:/Users/slaim/gcc/lib/gcc]
+        collapse library dir [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../../../i686-pc-mingw32/lib] ==> [C:/Users/slaim/gcc/i686-pc-mingw32/lib]
+        collapse library dir [C:/Users/slaim/gcc/bin/../lib/gcc/i686-pc-mingw32/14.1.0/../../..] ==> [C:/Users/slaim/gcc/lib]
+        implicit libs: [stdc++;mingw32;gcc;moldname;mingwex;kernel32;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex;kernel32]
+        implicit objs: [C:/Users/slaim/gcc/i686-pc-mingw32/lib/crt2.o;C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0/crtbegin.o;C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0/crtend.o]
+        implicit dirs: [C:/Users/slaim/gcc/lib/gcc/i686-pc-mingw32/14.1.0;C:/Users/slaim/gcc/lib/gcc;C:/Users/slaim/gcc/i686-pc-mingw32/lib;C:/Users/slaim/gcc/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Users/slaim/gcc/i686-pc-mingw32/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.41
+...

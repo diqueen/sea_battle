@@ -1,0 +1,3 @@
+C:/Users/slaim/github-classroom/is-itmo-c-24/labwork_5_boost/build/_deps/json-subbuild/CMakeFiles/json-populate.dir
+C:/Users/slaim/github-classroom/is-itmo-c-24/labwork_5_boost/build/_deps/json-subbuild/CMakeFiles/edit_cache.dir
+C:/Users/slaim/github-classroom/is-itmo-c-24/labwork_5_boost/build/_deps/json-subbuild/CMakeFiles/rebuild_cache.dir

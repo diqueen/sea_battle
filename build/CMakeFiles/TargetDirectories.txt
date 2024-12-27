@@ -1,0 +1,4 @@
+C:/Users/slaim/github-classroom/is-itmo-c-24/sea_battle/build/CMakeFiles/sea_battle.dir
+C:/Users/slaim/github-classroom/is-itmo-c-24/sea_battle/build/CMakeFiles/web_server.dir
+C:/Users/slaim/github-classroom/is-itmo-c-24/sea_battle/build/CMakeFiles/edit_cache.dir
+C:/Users/slaim/github-classroom/is-itmo-c-24/sea_battle/build/CMakeFiles/rebuild_cache.dir
